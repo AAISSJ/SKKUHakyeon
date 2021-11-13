@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.googleloginexample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera2" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="성균학연"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GoogleLoginExample">
+        <activity android:name="frag4.PostActivity_person"></activity>
+        <activity android:name=".chatting.ChatActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".match.MatchLikeActivity" />
+        <activity android:name=".mento_list.MentoSelectActivity" />
+        <activity android:name=".mento_list.PostActivity_mento" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name="frag3.PostActivity_graduate" />
+        <activity android:name="frag3.PostActivity_prep_for_emp" />
+        <activity android:name="frag3.PostActivity_undergraduate" />
+        <activity android:name=".chatting.RatingActivity" />
+        <activity android:name="frag3.ItemActivity" />
+        <activity android:name="frag5.PostActivity_modify" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

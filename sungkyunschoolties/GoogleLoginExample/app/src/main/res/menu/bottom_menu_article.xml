@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/undergraduate"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_book_24"
+        android:title="학부"/>
+
+    <item
+        android:id="@+id/prep_for_emp"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_contact_page_24"
+        android:title="취업준비"/>
+
+    <item
+        android:id="@+id/graduate"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_school_24"
+        android:title="대학원"/>
+
+</menu>

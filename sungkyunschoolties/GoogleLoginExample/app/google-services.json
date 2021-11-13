@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "162030828164",
+    "project_id": "skkumento",
+    "storage_bucket": "skkumento.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162030828164:android:130f0a2f37b4507613a0d1",
+        "android_client_info": {
+          "package_name": "com.example.googleloginexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162030828164-uns8mcfdpd8d13msihu3203v3p8ok2p9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.googleloginexample",
+            "certificate_hash": "28b3b94abba432d06d47302606aad6f3e4dded78"
+          }
+        },
+        {
+          "client_id": "162030828164-0igemm36cnlulq69jfn9sf5ctt316n6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ6dwjrWEHe3l9gFiEpWvUrWky_N0Rlvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162030828164-0igemm36cnlulq69jfn9sf5ctt316n6l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

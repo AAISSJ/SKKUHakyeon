@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.AppFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="\n   안녕하세요 성균학연입니다!\n\n   성균학연(成均學緣)이란 지나치고 모자라는 것을 고르게 한다는 '성균'과
+같은 학교에서의 배움이 연이 된다는 '학연'의 합성어로, 성균관대 학우들의 경험에서 얻은 지식 기부와 조력을 활성화하기 위한 앱입니다.\n\n   성균학연에서 학우님의 멘토와 멘티를 만나보세요!" />
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
